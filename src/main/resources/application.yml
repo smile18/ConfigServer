@@ -1,0 +1,11 @@
+encrypt:
+  key-store:
+    location: file:///D:/encrypt-server/config-server.jks
+    #file:///C:\Program Files\Java\jdk1.8.0\jre\lib\security\server.jks
+    #file:///D:/encrypt-server/server.jks
+    #password: letmein
+    #alias: mycngClientkey
+    #secret: changeme
+    password: my-s70r3-s3cr3t
+    alias: config-server-key
+    secret: my-k34-s3cr3t
